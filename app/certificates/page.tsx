@@ -17,16 +17,6 @@ export default function CertificatesPage() {
   const certificates = [
     {
       id: 1,
-      title: "ChatGPT Playground for Beginners: Intro to NLP AI",
-      issuer: "Coursera Project Network",
-      date: "April 2024",
-      description:
-        "An online non-credit project focused on introducing natural language processing and AI using ChatGPT. Offered through Coursera and authorized by Coursera Project Network.",
-      image: "/chtgptplayground.png",
-      credentialUrl: "https://coursera.org/verify/2D89NS5AGRXS",
-    },
-    {
-      id: 2,
       title: "Cloud Computing",
       issuer: "NPTEL (IIT Kharagpur)",
       date: "October 2024",
@@ -37,7 +27,7 @@ export default function CertificatesPage() {
     }
     ,
     {
-      id: 3,
+      id: 2,
       title: "JAVA Backend Development - Live",
       issuer: "GeeksforGeeks",
       date: "Date not specified", // You can replace this with the actual date if known
@@ -48,7 +38,7 @@ export default function CertificatesPage() {
     }
     ,
     {
-      id: 4,
+      id: 3,
       title: "Mastering Data Structures & Algorithms using C and C++",
       issuer: "Udemy",
       date: "Nov. 14, 2023",
@@ -58,7 +48,7 @@ export default function CertificatesPage() {
       credentialUrl: "https://ude.my/UC-d912ddc2-c1f5-40f1-a483-13961caa94543"
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Algorithms on Strings",
       "issuer": "Coursera (UC San Diego & Higher School of Economics)",
       "date": "Feb 14, 2024",
@@ -68,13 +58,23 @@ export default function CertificatesPage() {
     }
     ,
     {
-      "id": 6,
+      "id": 5,
       "title": "GenAI for Everyone",
       "issuer": "Coursera (Fractal Analytics)",
       "date": "Feb 6, 2024",
       "description": "Completed an online non-credit course on GenAI for Everyone, authorized by Fractal Analytics and offered through Coursera.",
       "image": "/six.png",
       "credentialUrl": "https://coursera.org/verify/DRFKUFK5542D"
+    },
+    {
+      id: 6,
+      title: "ChatGPT Playground for Beginners: Intro to NLP AI",
+      issuer: "Coursera Project Network",
+      date: "April 2024",
+      description:
+        "An online non-credit project focused on introducing natural language processing and AI using ChatGPT. Offered through Coursera and authorized by Coursera Project Network.",
+      image: "/chtgptplayground.png",
+      credentialUrl: "https://coursera.org/verify/2D89NS5AGRXS",
     },
     {
       "id": 7,
@@ -85,7 +85,6 @@ export default function CertificatesPage() {
       "image": "/seven.png",
       "credentialUrl": "#"
     },
-    
   ]
 
   return (

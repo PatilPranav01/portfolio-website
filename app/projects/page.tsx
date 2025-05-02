@@ -9,6 +9,34 @@ export default function ProjectsPage() {
   const projects = [
     {
       id: 1,
+      title: "Tasty Trails - Restaurant Website",
+      description: "Developed a responsive website using React.js, Node.js, and MongoDB for dynamic menus and online reservations. Designed an intuitive UI for a seamless user experience.",
+      image: "rest.png", // Replace with your actual image path
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "MongoDB", "React.js", "Node.js"],
+      demoUrl: "https://tastytrails-demo.vercel.app", // Replace with your actual live URL
+      githubUrl: "https://github.com/yourusername/tasty-trails" // Replace with your actual repo URL
+    },
+    {
+      id: 2,
+      title: "Hospital Management System",
+      description: "Built a React.js-based platform with MongoDB for automated appointment scheduling and patient management. Integrated doctor availability tracking and secure patient data handling.",
+      image: "\hospital.png", // Replace with your actual image path
+      tags: ["React.js", "MongoDB", "Node.js", "Express.js"],
+      demoUrl: "https://hospital-management-demo.vercel.app", // Replace with your actual live URL
+      githubUrl: "https://github.com/yourusername/hospital-management-system" // Replace with your actual repo URL
+    },
+    {
+      id: 3,
+      title: "Movie Ticket Booking",
+      description: "A web application that allows users to browse movies, select showtimes, and book tickets online seamlessly.",
+      image: "\movie.png",
+      tags: ["Java", "Spring Boot", "MySQL", "React"],
+      demoUrl: "#",
+      githubUrl: "#",
+    },
+    
+    {
+      id: 4,
       title: "E-Commerce Platform",
       description:
         "A full-stack e-commerce platform with product management, cart functionality, and payment processing.",
@@ -18,17 +46,17 @@ export default function ProjectsPage() {
       githubUrl: "#",
     },
     {
-      id: 2,
+      id: 5,
       title: "Task Management App",
       description:
         "A responsive task management application with drag-and-drop functionality and team collaboration features.",
       image: "/taskmanager.png",
-      tags: ["React", "Firebase", "Tailwind CSS"],
+      tags: ["Kotlin", "Firebase", "Tailwind CSS"],
       demoUrl: "#",
       githubUrl: "#",
     },
     {
-      id: 3,
+      id: 6,
       title: "Real-time Chat Application",
       description:
         "A real-time messaging platform with private chats, group conversations, and media sharing capabilities.",
@@ -38,7 +66,7 @@ export default function ProjectsPage() {
       githubUrl: "#",
     },
     {
-      id: 4,
+      id: 7,
       title: "Weather Dashboard",
       description:
         "An interactive weather dashboard that displays current conditions and forecasts for multiple locations.",
@@ -48,7 +76,7 @@ export default function ProjectsPage() {
       githubUrl: "#",
     },
     {
-      id: 5,
+      id: 8,
       title: "Content Management System",
       description: "A custom CMS with user roles, content publishing workflow, and analytics integration.",
       image: "/cms.png",
@@ -56,34 +84,7 @@ export default function ProjectsPage() {
       demoUrl: "#",
       githubUrl: "#",
     },
-    {
-      id: 6,
-      title: "Tasty Trails - Restaurant Website",
-      description: "Developed a responsive website using React.js, Node.js, and MongoDB for dynamic menus and online reservations. Designed an intuitive UI for a seamless user experience.",
-      image: "rest.png", // Replace with your actual image path
-      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "MongoDB", "React.js", "Node.js"],
-      demoUrl: "https://tastytrails-demo.vercel.app", // Replace with your actual live URL
-      githubUrl: "https://github.com/yourusername/tasty-trails" // Replace with your actual repo URL
-    },
-    {
-      id: 7,
-      title: "Hospital Management System",
-      description: "Built a React.js-based platform with MongoDB for automated appointment scheduling and patient management. Integrated doctor availability tracking and secure patient data handling.",
-      image: "\hospital.png", // Replace with your actual image path
-      tags: ["React.js", "MongoDB", "Node.js", "Express.js"],
-      demoUrl: "https://hospital-management-demo.vercel.app", // Replace with your actual live URL
-      githubUrl: "https://github.com/yourusername/hospital-management-system" // Replace with your actual repo URL
-    },
-    {
-      id: 8,
-      title: "Movie Ticket Booking",
-      description: "A web application that allows users to browse movies, select showtimes, and book tickets online seamlessly.",
-      image: "\movie.png",
-      tags: ["Java", "Spring Boot", "React", "MySQL"],
-      demoUrl: "#",
-      githubUrl: "#",
-    },
-    
+
     
     {
       id: 9,
